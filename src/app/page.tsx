@@ -6,9 +6,11 @@ export default function Home() {
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl text-purple-700 font-bold mb-4">Welcome</h1>
             <p className="text-lg text-gray-700 mb-4">
-              Massa urna magnis dignissim id euismod porttitor vitae etiam
-              viverra nunc at adipiscing sit morbi aliquet mauris porttitor
-              nisi, senectus pharetra, ac porttitor orci.
+              Toy mouse squeak roll over cat milk copy park pee walk owner
+              escape bored tired cage droppings sick vet vomit. Slap kitten
+              brother with paw. Leave dead animals as gifts lick left leg for
+              ninety minutes, still dirty one of these days I&apos;m going to
+              get that red dot,
             </p>
             <a
               href="/"
