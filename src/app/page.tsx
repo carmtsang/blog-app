@@ -1,4 +1,6 @@
 import styles from "@/app/ui/styles/home.module.css";
+import Image from "next/image";
+import { roboto } from "@/app/ui/fonts";
 
 export default function Home() {
   return (
@@ -6,7 +8,9 @@ export default function Home() {
       <div className="container mx-auto p-4 relative">
         <div className="bg-white border-2 border-purple-100 rounded-lg p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col justify-center">
-            <h1 className={`text-4xl0 ont-bold mb-4 ${styles.text_exodus}`}>
+            <h1
+              className={`${roboto.className} text-4xl0 ont-bold mb-4 ${styles.text_exodus}`}
+            >
               Welcome
             </h1>
             <p className="text-lg text-gray-700 mb-4">
@@ -22,6 +26,22 @@ export default function Home() {
             >
               Go to Blog
             </a>
+          </div>
+          <div className="relative flex justify-center items-center">
+            <Image
+              src="/image-desktop.png"
+              width={1000}
+              height={760}
+              className="hidden md:block z-10"
+              alt="A block that says Desktop Image"
+            />
+            <Image
+              src="/image-mobile.png"
+              width={560}
+              height={620}
+              className="block md:hidden z-10"
+              alt="A block that says Desktop Image"
+            />
           </div>
         </div>
       </div>
