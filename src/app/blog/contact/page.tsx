@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Page() {
   return (
-    <div>
+    <div className="py-2">
       <h1 className="text-4xl text-green-800 font-bold mb-4">Contact</h1>
       <p>
         Somehow manage to catch a bird but have no idea what to do next, so play
@@ -10,9 +10,9 @@ export default function Page() {
         scratch, why are you petting me, or naughty running cat, yet mesmerizing
         birds and eat plants.
       </p>
-      <div>
-        <h2>Get in Touch</h2>
-        <ul style={{ listStyleType: "square" }}>
+      <div className="py-1">
+        <h2 className="text-2xl text-green-700 font-bold">Get in Touch</h2>
+        <ul className="list-disc px-5">
           <li>
             Email: <a href="mailto:contact@example.com">contact@example.com</a>
           </li>
