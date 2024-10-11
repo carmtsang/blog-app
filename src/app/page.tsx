@@ -32,14 +32,14 @@ export default function Home() {
               src="/desktop.png"
               width={1000}
               height={760}
-              className="hidden md:block z-10"
+              className="hidden md:block z-10 rounded-xl"
               alt="A block that says Desktop Image"
             />
             <Image
               src="/mobile.png"
               width={560}
               height={620}
-              className="block md:hidden z-10"
+              className="block md:hidden z-10 rounded-xl"
               alt="A block that says Desktop Image"
             />
           </div>
