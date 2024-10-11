@@ -29,14 +29,14 @@ export default function Home() {
           </div>
           <div className="relative flex justify-center items-center">
             <Image
-              src="/image-desktop.png"
+              src="/desktop.png"
               width={1000}
               height={760}
               className="hidden md:block z-10"
               alt="A block that says Desktop Image"
             />
             <Image
-              src="/image-mobile.png"
+              src="/mobile.png"
               width={560}
               height={620}
               className="block md:hidden z-10"
