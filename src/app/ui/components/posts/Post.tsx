@@ -15,7 +15,7 @@ export default function Component({
   return (
     <div className="border border-gray-200 p-4 my-4">
       <Link href={`/blog/post/${id}`}>
-        <h2>{title}</h2>
+        <h2 className="text-green-900">{title}</h2>
       </Link>
       <p className="text-gray-500">{date}</p>
       <p>{content}</p>

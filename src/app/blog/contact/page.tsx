@@ -3,7 +3,7 @@ import React from "react";
 export default function Page() {
   return (
     <div>
-      <h1 className="text-4xl text-purple-800 font-bold mb-4">Contact</h1>
+      <h1 className="text-4xl text-green-800 font-bold mb-4">Contact</h1>
       <p>
         Somehow manage to catch a bird but have no idea what to do next, so play
         with it until it dies of shock pet me pet me pet me pet me, bite,
