@@ -13,7 +13,7 @@ export default function Component({
   date: string;
 }) {
   return (
-    <div key={id} className="border border-gray-200 p-4 my-4">
+    <div className="border border-gray-200 p-4 my-4">
       <Link href={`/blog/post/${id}`}>
         <h2>{title}</h2>
       </Link>
